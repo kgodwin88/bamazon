@@ -1,5 +1,18 @@
 # Bamazon
-Command Line Application
+Command Line Application 
+ ![image](images/bamCustomer.png?raw=true)
+    <p align = "center"><img src = "https://github.com/kgodwin88/bamazon/blob/master/images/addDepartment.png"></p>
+    <p align = "center"><img src = "./images/insuffiecentstock.png"></p>
+    <p align = "center"><img src = "./images/bamManager.png"></p>
+    <p align = "center"><img src = "./images/viewProducts.png"></p>
+    <p align = "center"><img src = "./images/lowinventory.png"></p>
+    <p align = "center"><img src = "./images/addtoLow.png"></p>
+    <p align = "center"><img src = "./images/addinventory.png"></p>
+    <p align = "center"><img src = "./images/inventoryadded.png"></p>
+    <p align = "center"><img src = "./images/departmentview.png"></p>
+    <p align = "center"><img src = "./images/addDepartment.png"></p>
+
+
 ## bamazonCustomer app allowws the customer to
     * Select an item from a list of items
 
@@ -30,14 +43,5 @@ Command Line Application
 
     * The Supervisor will also have the ability to create new departments
 
-    ![image](images/bamCustomer.png?raw=true)
-    <p align = "center"><img src = "https://github.com/kgodwin88/bamazon/blob/master/images/addDepartment.png"></p>
-    <p align = "center"><img src = "./images/insuffiecentstock.png"></p>
-    <p align = "center"><img src = "./images/bamManager.png"></p>
-    <p align = "center"><img src = "./images/viewProducts.png"></p>
-    <p align = "center"><img src = "./images/lowinventory.png"></p>
-    <p align = "center"><img src = "./images/addtoLow.png"></p>
-    <p align = "center"><img src = "./images/addinventory.png"></p>
-    <p align = "center"><img src = "./images/inventoryadded.png"></p>
-    <p align = "center"><img src = "./images/departmentview.png"></p>
-    <p align = "center"><img src = "./images/addDepartment.png"></p>
+
+  
