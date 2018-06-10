@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "0.0.1",
+  "description": "app",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgodwin88/bamazon.git"
+  },
+  "author": "Kevin Godwin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kgodwin88/bamazon/issues"
+  },
+  "homepage": "https://github.com/kgodwin88/bamazon#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^5.0.1",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}
