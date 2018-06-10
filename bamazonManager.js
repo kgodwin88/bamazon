@@ -128,7 +128,7 @@ function updateInventory() {
         var query = "SELECT * FROM products WHERE item_id = ?";
         connection.query(query, [answer.item], function (err, results) {
             var newQuantity = (parseInt(answer.number) + parseInt(results[0].stock_quantity));
-            updateStock(answer.item, answer.number, results[0].product_name);
+            updateStock(answer.item, newQuantity, results[0].product_name);
 
         });
     });
@@ -138,11 +138,11 @@ function updateStock(item, number, name) {
         "UPDATE products SET ? WHERE ?",
         [
             {
-                stock_quantity: number
+                stock_quantity: number,
             },
             {
-                item_id: item
-            }
+                item_id: item,
+            },
         ],
     );
     console.log("The new stock quantity is " + number + " for product " + name);
@@ -172,13 +172,13 @@ function addProduct() {
                         if (parseInt(item) === parseInt(itemId[i])) {
                             console.log("\nThat Item Id has already been used");
                             return false;
-                        }
-                    }
+                        };
+                    };
                     return true;
-                }
+                };
                 return false;
 
-            }
+            },
         },
         {
             name: "product",
@@ -187,9 +187,9 @@ function addProduct() {
             validate: function (product) {
                 if (isNaN(product) === true) {
                     return true;
-                }
+                };
                 return false;
-            }
+            },
         },
         {
             name: "department",
@@ -198,9 +198,9 @@ function addProduct() {
             validate: function (department) {
                 if (isNaN(department) === true) {
                     return true;
-                }
+                };
                 return false;
-            }
+            },
         },
         {
             name: "price",
@@ -238,9 +238,9 @@ function addProduct() {
             function (err, res) {
                 console.log(res.affectedRows + " product added to stock!\n");
                 nextSelection();
-            })
-    })
-}
+            });
+    });
+};
 function displayItems() {
     values = [];
     itemId = [];
