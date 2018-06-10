@@ -2,7 +2,7 @@
 Command Line Application 
     <p align = "center"><img src = "./images/bamCustomer.png"></p>
     <p align = "center">Displays the table with all of the products for sale</p>
-    <p align = "center"><img src = "./images/customerpurchase.png"></p>
+    <p align = "center"><img src = "./images/customerPurchase.png"></p>
     <p align = "center">The customer enters the item number they wish to purchase then ask the quantity <br/>
      that they would like to purchase then would display the item and the total</p>
     <p align = "center"><img src = "./images/insuffiecentstock.png"></p>
@@ -11,7 +11,7 @@ Command Line Application
     <p align = "center">Displays the selection for the manager to choose from</p>
     <p align = "center"><img src = "./images/viewProducts.png"></p>
     <p align = "center">Displays the table with all of the products for sale</p>
-    <p align = "center"><img src = "./images/lowinventory.png"></p>
+    <p align = "center"><img src = "./images/lowInventory.png"></p>
     <p align = "center">Displays the table with all items with quantity of 5 and below</p>
     <p align = "center"><img src = "./images/addtoLow.png"></p>
     <p align = "center">Allows the Manager to add more stock to items to are low</p>
