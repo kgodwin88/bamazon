@@ -30,7 +30,7 @@ Command Line Application
 
     * The Supervisor will also have the ability to create new departments
 
-    ![image](./images/bamCustomer.png?raw=true)
+    ![image](/images/bamCustomer.png?raw=true)
     <p align = "center"><img src = "./images/customerPurchase.png"></p>
     <p align = "center"><img src = "./images/insuffiecentstock.png"></p>
     <p align = "center"><img src = "./images/bamManager.png"></p>
