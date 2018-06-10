@@ -1,19 +1,31 @@
 # Bamazon
 Command Line Application 
- ![image](images/bamCustomer.png?raw=true)
-    <p align = "center"><img src = "https://github.com/kgodwin88/bamazon/blob/master/images/addDepartment.png"></p>
+    <p align = "center"><img src = "./images/bamCustomer.png"></p>
+    <p align = "center">Displays the table with all of the products for sale</p>
+    <p align = "center"><img src = "./images/customerpurchase.png"></p>
+    <p align = "center">The customer enters the item number they wish to purchase then ask the quantity <br/>
+     that they would like to purchase then would display the item and the total</p>
     <p align = "center"><img src = "./images/insuffiecentstock.png"></p>
+    <p align = "center">Displays that there is insufficient stock for the item the customer wishes to purchase</p>
     <p align = "center"><img src = "./images/bamManager.png"></p>
+    <p align = "center">Displays the selection for the manager to choose from</p>
     <p align = "center"><img src = "./images/viewProducts.png"></p>
+    <p align = "center">Displays the table with all of the products for sale</p>
     <p align = "center"><img src = "./images/lowinventory.png"></p>
+    <p align = "center">Displays the table with all items with quantity of 5 and below</p>
     <p align = "center"><img src = "./images/addtoLow.png"></p>
+    <p align = "center">Allows the Manager to add more stock to items to are low</p>
     <p align = "center"><img src = "./images/addinventory.png"></p>
+    <p align = "center">Displays the table with all items and allows the Manager to add more stock to any Item </p>
     <p align = "center"><img src = "./images/inventoryadded.png"></p>
+    <p align = "center">Allows the Manager to add new products to the inventory</p>
     <p align = "center"><img src = "./images/departmentview.png"></p>
+    <p align = "center">Displays the table with all of the departments and the overhead cost, product sales, and profit</p>
     <p align = "center"><img src = "./images/addDepartment.png"></p>
+    <p align = "center">Allows the Supervisor to add a new Department</p>
 
 
-## bamazonCustomer app allowws the customer to
+## bamazonCustomer app allows the customer to
     * Select an item from a list of items
 
     * Then allows the customer to select how many of that item they want to purchase
